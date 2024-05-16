@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cultura Mexicana</title>
+    <style>
+      h1 {
+        color: goldenrod;
+        text-align: center;
+        font-family: cursive;
+        font-size: 55px;
+      }
+
+      h2 {
+        color: rgb(254, 253, 253);
+        padding: 0 0 24px;
+        font-size: large;
+        margin: 0;
+      }
+
+      h3 {
+        color: rgb(255, 255, 255);
+        font-weight: 300;
+      }
+
+      button {
+        border-radius: 25px;
+        display: block;
+        background: linear-gradient();
+        border: 1px solid #e89df2;
+        color: #a54a4a;
+        line-height: 20px;
+        transition: all 200ms ease;
+      }
+
+      button:hover {
+        box-shadow: 10px 10px 8px #888888;
+        color: #f60404;
+        background: #ffffff;
+        cursor: pointer;
+      }
+
+      body {
+        background-image: url("https://static.vecteezy.com/system/resources/previews/027/180/503/large_2x/mexican-party-background-free-photo.jpg");
+      }
+
+      .message {
+        color: #e89df2;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Cultura Mexicana 🇲🇽</h1>
+    <h2>learn more about Mexico's culture 📝</h2>
+    <h3>
+      Mexican culture is described as the 'child' of both western and native
+      American civilizations. <br />
+      Other minor influences include those from other regions of Europe, Africa
+      and also Asia.
+    </h3>
+    <button>Artesania</button>
+    <ul>
+      <li>
+        <a
+          href="https://www.mexicotravelandleisure.com/culture/traditional-mexican-clothing/#google_vignette"
+          style="color: rgb(8, 242, 101); text-decoration: underline"
+          >Clothing</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://magazine.velasresorts.com/mexico/mexican-art-made-pottery/"
+          style="color: rgb(189, 175, 175); text-decoration: underline"
+          >Pottery</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://lolomercadito.com/blogs/news/how-its-made-papel-picado"
+          style="color: rgb(255, 0, 0); text-decoration: underline"
+          >Papel Picado</a
+        >
+      </li>
+    </ul>
+    <hr />
+    <p>
+      <strong>Aprende <em>más</em></strong>
+    </p>
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/641/original/images.jpeg?1715803484"
+      width="500"
+    />
+    <p>
+      <span class="label">Instagram:</span>
+      <a href="https://www.instagram.com/amorxmexico/"
+        >https://www.instagram.com/amorxmexico/</a
+      >
+    </p>
+    <div class="message">Coded by Lesley Flores 🌸</div>
+
+    <script>
+      let answer = prompt("Have you visited Mexico before?");
+      if (answer === "I have" || answer === "yes") {
+        alert("Awesome!😆");
+      } else {
+        alert("You should visit Mexico 🏖️");
+      }
+
+      let changeButton = document.querySelector("button");
+      changeButton.addEventListener("click", artesania);
+
+      function artesania() {
+        alert("Artesania in Mexico includes pottery, textiles, and more!");
+      }
+    </script>
+  </body>
+</html>
